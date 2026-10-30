@@ -1,28 +1,46 @@
-.<!DOCTYPE html>
-<html lang="en">
-<head>
-  	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<style>
-        p {
-  color: #FFFF00;
+.scratchpad {
+	max-width: 48rem;
+	margin: 3rem auto;
+	padding: 0 1.5rem;
+	font-family: system-ui, sans-serif;
+	line-height: 1.6;
 }
 
-</style>
+h1 {
+	margin-bottom: 0.25rem;
+	color:yellow 
+}
 
-<body>
-<h1>Lorem Ipsum</h1>
-<a href="https://google.com"></a>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+.scratchpad > p:first-of-type {
+	margin-top: 0;
+	margin-bottom: 2rem;
+}
 
+label {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-weight: 600;
+}
 
-<h1>Lorem Ipsum 2</h1>
+textarea {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 16rem;
+	padding: 0.875rem;
+	border: 1px solid currentColor;
+	border-radius: 0.25rem;
+	font: inherit;
+	resize: vertical;
+}
 
+textarea:focus-visible {
+	outline: 2px solid currentColor;
+	outline-offset: 2px;
+}
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-</body>
-  
-</html>
+#character-count {
+	margin-top: 0.5rem;
+	font-size: 0.875rem;
+	text-align: right;
+}
